@@ -6,22 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Site</title>
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script defer src="./app.js"></script>
   </head>
+
   <body class="main-content">
-    <header class="section sec1 header active"></header>
-    <main>
-      <section class="section sec2 about me"></section>
-      <section class="section sec3 projects"></section>
-      <section class="section sec4 contact"></section>
-    </main>
+    <header class="header">
+      <section id="landing-page">
+        <nav class="navbar">
+          <!-- <figure onclick="toggleModal()">
+            <img id="personal-logo" src="/assets/Ben Ramirez-1.png" alt="" />
+          </figure> -->
+          <a href="#" class="nav-logo">DZ</a>
+          <ul class="nav-menu">
+            <li class="nav-item" onclick="toggleModal()">
+              <a
+                href="#"
+                class="nav-link link__hover-effect link__hover-effect--white"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link link__hover-effect link__hover-effect--white"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item" onclick="toggleModal()">
+              <a
+                href="#"
+                class="nav-link link__hover-effect link__hover-effect--white"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item" onclick="toggleContrast()">
+              <a
+                href="#"
+                class="nav-link link__hover-effect link__hover-effect--white"
+                ><i class="fas fa-adjust"></i
+              ></a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </section>
+    </header>
   </body>
 </html>
