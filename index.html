@@ -5,56 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Site</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
     <script defer src="./app.js"></script>
   </head>
 
-  <body class="main-content">
+  <body>
+    <!-- navbar -->
     <section id="top">
-      <header class="header">
+      <nav
+        class="navbar navbar-expand-lg text-uppercase"
+        style="background-color: #f0f0f0"
+      >
         <div class="container">
-          <div class="row">
-            <nav class="navbar">
-              <!-- <figure onclick="toggleModal()">
-                <img id="personal-logo" src="/assets/Ben Ramirez-1.png" alt="" />
-              </figure> -->
-              <a href="#" class="nav-logo">DZ</a>
-              <ul class="nav-menu">
-                <li class="nav-item" onclick="toggleModal()">
-                  <a href="#" class="nav-link">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item" onclick="toggleModal()">
-                  <a href="#" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item" onclick="toggleContrast()">
-                  <a href="#" class="nav-link"><i class="fas fa-adjust"></i></a>
-                </li>
-              </ul>
-              <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-              </div>
-            </nav>
+          <a
+            class="navbar-brand font-weight-bold link-hover-effect link-hover-effect--black"
+            href="#"
+            >DZ</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav ml-auto">
+              <a
+                class="nav-link active px-lg-4 rounded link-hover-effect link-hover-effect--black"
+                href="#"
+                >About Me</a
+              >
+              <a
+                class="nav-link px-lg-4 rounded link-hover-effect link-hover-effect--black"
+                href="#"
+                >Projects</a
+              >
+              <a
+                class="nav-link px-lg-4 rounded link-hover-effect link-hover-effect--black"
+                href="#"
+                >Contact</a
+              >
+            </div>
           </div>
         </div>
-      </header>
-      <div class="title">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-12">
-              <h1>Welcome!</h1>
-            </div>
+      </nav>
+    </section>
+
+    <!-- main section -->
+    <section class="title py-5">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-6 py-5 mr-auto">
+            <h2>
+              <small>Hello! I'm</small> <br />
+              Daniel Zavala
+            </h2>
+            <h6>Aspiring Front End Developer.</h6>
+            <img src="img/ME-modified.png" alt="Daniel Zavala">
           </div>
         </div>
       </div>
     </section>
+
+    <footer></footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
