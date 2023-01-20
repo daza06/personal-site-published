@@ -11,6 +11,9 @@
   font-weight: 620;
   cursor: pointer;
   text-decoration: none;
+  position: relative;
+  left: 200px;
+  top: 5px;
 }
 
 .nav-link:hover {
@@ -51,6 +54,8 @@
   color: #a3bb98;
   cursor: pointer;
   text-decoration: none;
+  position: relative;
+  right: 200px;
 }
 
 .navbar-brand:hover {
@@ -79,7 +84,7 @@
 
 img {
   position: relative;
-  padding-left: 44rem;
+  padding-left: 45rem;
   top: -280px;
 }
 
