@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +35,7 @@
 }
 
 .link-hover-effect--white:after {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .link-hover-effect--black:after {
@@ -67,7 +66,7 @@
   font-weight: 700;
   position: relative;
   top: 100px;
-  right: 50px;
+  right: 51px;
 }
 
 .title h6 {
@@ -78,14 +77,64 @@
   border-bottom-style: groove;
   width: 70%;
   position: relative;
-  top: 110px;
-  right: 45px;
+  top: 105px;
+  right: 47px;
 }
 
 img {
   position: relative;
   padding-left: 45rem;
   top: -280px;
+}
+
+.social-list {
+  position: relative;
+  display: flex;
+  bottom: 320px;
+  right: 40px;
+}
+
+.social-link {
+  background-color: #a3bb98;
+  color: black;
+  padding: 6px;
+  width: 38px;
+  height: 38px;
+  font-size: 16px;
+  margin-right: 9px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.black-circle {
+  background-color: black;
+  position: relative;
+  right: 144px;
+  z-index: 0;
+  width: 38px;
+  height: 38px;
+  align-items: center;
+}
+
+.social-link:hover {
+  color: white;
+}
+
+.click {
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.click:hover {
+  transform: scale(1.18);
+}
+
+.click:active {
+  transform: scale(0.8);
 }
 
 /* html {
