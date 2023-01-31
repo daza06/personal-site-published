@@ -70,6 +70,7 @@
   font-weight: 700;
   margin-top: 60px;
   line-height: 1;
+  text-shadow: -7px 5px 8px #9c9c9cab;
   /* position: relative;
   top: 100px;
   right: 51px; */
@@ -114,17 +115,7 @@ img {
   align-items: center;
   border-radius: 50%;
   z-index: 100;
-}
-
-.black-circle {
-  background-color: black;
-  /* position: relative;
-  right: 144px; */
-  z-index: 0;
-  width: 38px;
-  height: 38px;
-  align-items: center;
-  display: flex;
+  box-shadow: -5px 3px 8px rgb(36, 35, 35);
 }
 
 .social-link:hover {
