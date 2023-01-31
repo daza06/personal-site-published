@@ -2,17 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .nav-link {
   color: black;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 620;
   cursor: pointer;
   text-decoration: none;
-  position: relative;
+  /* position: relative;
   left: 200px;
-  top: 5px;
+  top: 5px; */
+  display: flex;
+  flex-grow: 1;
 }
 
 .nav-link:hover {
@@ -53,8 +56,9 @@
   color: #a3bb98;
   cursor: pointer;
   text-decoration: none;
-  position: relative;
-  right: 200px;
+  margin-left: 20px;
+  /* position: relative;
+  right: 200px; */
 }
 
 .navbar-brand:hover {
@@ -64,34 +68,35 @@
 .title h2 {
   font-size: 4.4rem;
   font-weight: 700;
-  position: relative;
+  margin-top: 60px;
+  line-height: 1;
+  /* position: relative;
   top: 100px;
-  right: 51px;
+  right: 51px; */
 }
 
 .title h6 {
   font-size: 1.4rem;
   text-transform: uppercase;
-  line-height: 1;
+  line-height: normal;
   border-bottom: 3px solid #a3bb98;
   border-bottom-style: groove;
   width: 70%;
-  position: relative;
+  /* position: relative;
   top: 105px;
-  right: 47px;
+  right: 47px; */
 }
 
 img {
-  position: relative;
-  padding-left: 45rem;
-  top: -280px;
+  height: max-content;
+  width: max-content;
 }
 
 .social-list {
   position: relative;
   display: flex;
-  bottom: 320px;
-  right: 40px;
+  /* bottom: 320px;
+  right: 40px; */
 }
 
 .social-link {
@@ -103,6 +108,7 @@ img {
   font-size: 16px;
   margin-right: 9px;
   margin-bottom: 5px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,12 +118,13 @@ img {
 
 .black-circle {
   background-color: black;
-  position: relative;
-  right: 144px;
+  /* position: relative;
+  right: 144px; */
   z-index: 0;
   width: 38px;
   height: 38px;
   align-items: center;
+  display: flex;
 }
 
 .social-link:hover {
@@ -137,6 +144,37 @@ img {
   transform: scale(0.8);
 }
 
+.breaker {
+  margin: 0 auto;
+  max-width: 100px;
+  padding-top: 50px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-md-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Dotted border */
+hr.dotted {
+  border-top: 6px dotted #c3cabf;
+  height: 6px;
+  width: 100%;
+}
 /* html {
   font-size: 70%;
   font-family: "Rubik", sans-serif;
