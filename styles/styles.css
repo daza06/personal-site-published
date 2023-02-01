@@ -7,13 +7,10 @@
 
 .nav-link {
   color: black;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 620;
   cursor: pointer;
   text-decoration: none;
-  /* position: relative;
-  left: 200px;
-  top: 5px; */
   display: flex;
   flex-grow: 1;
 }
@@ -57,8 +54,6 @@
   cursor: pointer;
   text-decoration: none;
   margin-left: 20px;
-  /* position: relative;
-  right: 200px; */
 }
 
 .navbar-brand:hover {
@@ -70,10 +65,6 @@
   font-weight: 700;
   margin-top: 60px;
   line-height: 1;
-  text-shadow: -7px 5px 8px #9c9c9cab;
-  /* position: relative;
-  top: 100px;
-  right: 51px; */
 }
 
 .title h6 {
@@ -83,21 +74,17 @@
   border-bottom: 3px solid #a3bb98;
   border-bottom-style: groove;
   width: 70%;
-  /* position: relative;
-  top: 105px;
-  right: 47px; */
 }
 
 img {
   height: max-content;
   width: max-content;
+  filter: drop-shadow(0px 0px 18px rgb(90, 90, 90));
 }
 
 .social-list {
   position: relative;
   display: flex;
-  /* bottom: 320px;
-  right: 40px; */
 }
 
 .social-link {
@@ -115,7 +102,7 @@ img {
   align-items: center;
   border-radius: 50%;
   z-index: 100;
-  box-shadow: -5px 3px 8px rgb(36, 35, 35);
+  box-shadow: -5px 0px 6px rgb(90, 90, 90);
 }
 
 .social-link:hover {
@@ -165,6 +152,7 @@ hr.dotted {
   border-top: 6px dotted #c3cabf;
   height: 6px;
   width: 100%;
+  opacity: 50%;
 }
 /* html {
   font-size: 70%;
