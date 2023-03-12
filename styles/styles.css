@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -97,7 +100,6 @@ img {
 .social-link {
   background-color: #a3bb98;
   color: black;
-  padding: 6px;
   width: 38px;
   height: 38px;
   font-size: 17px;
@@ -133,6 +135,7 @@ img {
   margin: 0 auto;
   max-width: 100px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .container {
@@ -156,10 +159,11 @@ img {
 
 /* Dotted border */
 hr.dotted {
-  border-top: 6px dotted #c3cabf;
+  border-top: 7px dotted #c3cabf;
   height: 6px;
   width: 100%;
   opacity: 50%;
+  margin: auto;
 }
 
 .about-me h2 {
@@ -187,6 +191,42 @@ hr.dotted {
   font-size: 18px;
   line-height: 2.5;
   margin-top: 150px;
+}
+
+.projects p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2.5;
+  margin-top: 150px;
+}
+
+footer {
+  background-color: #242424;
+  margin-top: 50px;
+}
+
+.footer-links {
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.footer-links a {
+  font-size: 15px;
+  color: #a3bb98;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.footer-links:hover {
+  color: #f0f0f0;
+}
+
+.footer-copyright {
+  color: #a3bb98;
 }
 /* html {
   font-size: 70%;
