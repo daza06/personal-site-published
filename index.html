@@ -20,17 +20,13 @@
 
   <body>
     <!-- navbar -->
-    <section id="top">
+    <section class="top">
       <nav
         class="navbar navbar-expand-lg text-uppercase"
-        style="background-color: #f0f0f0"
+        style="background-color: #c5c5c5"
       >
-        <div class="container py-1">
-          <a
-            class="navbar-brand font-weight-bold link-hover-effect link-hover-effect--black"
-            href="#"
-            >DZ</a
-          >
+        <div class="nav-logo container">
+          <img src="assets/dz.png" alt="my logo" />
           <button
             class="navbar-toggler"
             type="button"
@@ -96,7 +92,7 @@
               ></a>
             </div>
           </div>
-          <div class="col-6 mx-auto">
+          <div class="my-face col-6 mx-auto">
             <img
               src="assets/DZ Face Shot.png"
               class="img-fluid float-right"
@@ -111,7 +107,7 @@
     <div class="breaker">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col">
             <hr class="dotted" />
           </div>
         </div>
@@ -147,7 +143,7 @@
     <div class="breaker">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col">
             <hr class="dotted" />
           </div>
         </div>
@@ -158,7 +154,7 @@
     <section class="projects">
       <div class="container">
         <div class="row">
-          <div class="col py-5 mr-auto">
+          <div class="col py-5">
             <h2>My Projects/Blog</h2>
             <p style="text-align: center">
               Come back to see future projects and blog posts!
@@ -172,27 +168,41 @@
     <div class="breaker">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col py-5">
             <hr class="dotted" />
           </div>
         </div>
       </div>
     </div>
 
-    <footer>
+    <footer class="py-2 my-1">
       <div class="container">
-        <div class="row">
-          <div class="col py-5 mr-auto">
-            <div class="footer-links">
-              <a href="https://www.linkedin.com/in/daniel-zavala-aa5960238/" target="_blank" class="click">LinkedIn</a>
-              <a href="https://github.com/daza06" target="_blank" class="click">GitHub</a>
-              <a href="assets/Full Stack Certificate.pdf" target="_blank" class="click">Resume</a>
-            </div>
-            <div class="col-4 footer-copyright">Copyright &copy;2023 Daniel Zavala</div>
-          </div>
-        </div>
+        <ul class="foot justify-content-center border-bottom mt-2">
+          <li class="footer-link">
+            <a
+              href="https://www.linkedin.com/in/daniel-zavala-aa5960238/"
+              class="footer-link px-4"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="footer-link">
+            <a href="https://github.com/daza06" class="footer-link px-4"
+              >GitHub</a
+            >
+          </li>
+          <li class="footer-link">
+            <a href="assets/Full Stack Certificate.pdf" class="footer-link px-4"
+              >Resume</a
+            >
+          </li>
+          <li class="footer-link">
+            <a href="#" class="footer-link px-4">Contact</a>
+          </li>
+        </ul>
+        <p class="text-center text-muted">&copy;2023 Daniel Zavala</p>
       </div>
     </footer>
+
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

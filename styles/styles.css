@@ -58,14 +58,6 @@ html {
   width: 100%;
 }
 
-.navbar-brand {
-  font-size: 3rem;
-  font-weight: 800;
-  color: #a3bb98;
-  cursor: pointer;
-  text-decoration: none;
-}
-
 .navbar-brand:hover {
   color: black;
 }
@@ -86,10 +78,18 @@ html {
   width: 70%;
 }
 
-img {
-  height: max-content;
-  width: max-content;
+.my-face img {
   filter: drop-shadow(0px 0px 18px rgb(90, 90, 90));
+}
+
+.nav-logo img {
+  height: 95px;
+  width: 95px;
+}
+
+.footer-logo img {
+  height: 80px;
+  width: 80px;
 }
 
 .social-list {
@@ -201,32 +201,38 @@ hr.dotted {
 }
 
 footer {
-  background-color: #242424;
+  background-color: #303030;
   margin-top: 50px;
 }
 
 .footer-links {
   align-items: center;
-  width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   display: flex;
   justify-content: space-around;
   margin: auto;
 }
 
-.footer-links a {
-  font-size: 15px;
+.footer-link a {
+  font-size: 16px;
   color: #a3bb98;
   text-decoration: none;
   text-decoration-line: none;
 }
 
-.footer-links:hover {
-  color: #f0f0f0;
+.footer-link:hover {
+  color: white;
 }
 
 .footer-copyright {
   color: #a3bb98;
+}
+
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  list-style: none;
 }
 /* html {
   font-size: 70%;
