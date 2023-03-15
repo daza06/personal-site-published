@@ -18,12 +18,16 @@
     <script defer src="./app.js"></script>
   </head>
 
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+  </style>
+
   <body>
     <!-- navbar -->
     <section class="top">
       <nav
         class="navbar navbar-expand-lg text-uppercase"
-        style="background-color: #c5c5c5"
+        style="background-color: rgb(243, 243, 243)"
       >
         <div class="nav-logo container">
           <img src="assets/dz.png" alt="my logo" />
@@ -70,7 +74,7 @@
               <small>Hello! I'm</small> <br />
               Daniel Zavala
             </h2>
-            <h6>Aspiring Front End Developer.</h6>
+            <h6>Aspiring Front End Developer</h6>
             <div class="social-list">
               <a
                 href="https://www.linkedin.com/in/daniel-zavala-aa5960238/"
@@ -103,22 +107,23 @@
       </div>
     </section>
 
-    <!-- dots -->
-    <div class="breaker">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <hr class="dotted" />
+    <section id="about-me">
+      <!-- dots -->
+      <div class="breaker">
+        <div class="container">
+          <div class="row">
+            <div class="col py-4">
+              <hr class="dotted" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- my story -->
-    <section class="about-me">
+      <!-- my story -->
+
       <div class="container">
         <div class="row">
-          <div class="col py-5 mr-auto">
+          <div class="about-title col py-5 mr-auto">
             <h2>My Story</h2>
             <p style="text-align: left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
@@ -139,22 +144,21 @@
       </div>
     </section>
 
-    <!-- dots -->
-    <div class="breaker">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <hr class="dotted" />
+    <section id="projects">
+      <div class="breaker">
+        <div class="container">
+          <div class="row">
+            <div class="col py-5">
+              <hr class="dotted" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- my projects -->
-    <section class="projects">
+      <!-- my projects -->
       <div class="container">
         <div class="row">
-          <div class="col py-5">
+          <div class="project-title col py-5">
             <h2>My Projects/Blog</h2>
             <p style="text-align: center">
               Come back to see future projects and blog posts!
@@ -164,7 +168,6 @@
       </div>
     </section>
 
-    <!-- dots -->
     <div class="breaker">
       <div class="container">
         <div class="row">
@@ -175,23 +178,30 @@
       </div>
     </div>
 
-    <footer class="py-2 my-1">
+    <footer class="py-3">
       <div class="container">
         <ul class="foot justify-content-center border-bottom mt-2">
           <li class="footer-link">
             <a
               href="https://www.linkedin.com/in/daniel-zavala-aa5960238/"
+              target="_blank"
               class="footer-link px-4"
               >LinkedIn</a
             >
           </li>
           <li class="footer-link">
-            <a href="https://github.com/daza06" class="footer-link px-4"
+            <a
+              href="https://github.com/daza06"
+              class="footer-link px-4"
+              target="_blank"
               >GitHub</a
             >
           </li>
           <li class="footer-link">
-            <a href="assets/Full Stack Certificate.pdf" class="footer-link px-4"
+            <a
+              href="assets/Full Stack Certificate.pdf"
+              class="footer-link px-4"
+              target="_blank"
               >Resume</a
             >
           </li>
