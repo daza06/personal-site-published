@@ -171,6 +171,18 @@ hr.dotted {
   margin: auto;
 }
 
+.about-title::after {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.about-title {
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0 0px 20px 0 rgb(0, 0, 0, 0.45);
+  overflow: hidden;
+}
+
 #about-me h2 {
   text-align: center;
   font-size: 60px;
@@ -181,6 +193,26 @@ hr.dotted {
   margin-top: 60px;
 }
 
+#about-me p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2.5;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.project-title::after {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.project-title {
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0 0px 20px 0 rgb(0, 0, 0, 0.45);
+  overflow: hidden;
+}
+
 #projects h2 {
   text-align: center;
   font-size: 60px;
@@ -189,14 +221,6 @@ hr.dotted {
   border-bottom-style: groove;
   margin-top: 60px;
   width: 100%;
-}
-
-#about-me p {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 2.5;
-  margin-top: 100px;
-  margin-bottom: 80px;
 }
 
 #projects p {
@@ -241,54 +265,7 @@ footer {
   list-style: none;
 }
 
-.about-title::after {
-  opacity: 1;
-  transform: translateY(-50%);
-}
-
-.about-title {
-  position: relative;
-  border-radius: 30px;
-  box-shadow: 0 0px 20px 0 rgb(0, 0, 0, 0.45);
-  overflow: hidden;
-}
-
-.project-title::after {
-  opacity: 1;
-  transform: translateY(-50%);
-}
-
-.project-title {
-  position: relative;
-  border-radius: 30px;
-  box-shadow: 0 0px 20px 0 rgb(0, 0, 0, 0.45);
-  overflow: hidden;
-}
-/* html {
-  font-size: 70%;
-  font-family: "Rubik", sans-serif;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.header {
-  border-bottom: 2px solid #e2e8f0;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 5rem;
-  margin: auto;
-}
-
+/* 
 .hamburger {
   display: none;
 }
@@ -303,32 +280,6 @@ a {
   background-color: #101010;
 }
 
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-item {
-  margin-left: 5rem;
-}
-
-.nav-link {
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: #475569;
-}
-
-.nav-link:hover {
-  color: #a3bb98;
-}
-
-.nav-logo {
-  font-size: 4rem;
-  font-weight: 500;
-  color: #a3bb98;
-}
-
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -341,14 +292,6 @@ a {
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-  }
-
-  .nav-menu.active {
-    left: 0;
-  }
-
-  .nav-item {
-    margin: 2.5rem 0;
   }
 
   .hamburger {
