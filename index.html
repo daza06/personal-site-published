@@ -55,7 +55,7 @@
               >
               <a
                 class="nav-link px-lg-4 rounded link-hover-effect link-hover-effect--black"
-                onclick="toggleModal()"
+                id="reserveButton"
                 href="#"
                 >Contact</a
               >
@@ -64,6 +64,31 @@
         </div>
       </nav>
     </section>
+
+    <div id="reserveModal" class="modal fade">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content modal-half">
+          <div class="modal-header">
+            <h3 class="modal-title">Reserve a Campsite</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <h3>
+              Thanks for stopping by!<br />Please contact me with any questions,
+              I'm looking for new opportunities to get experience
+            </h3>
+          </div>
+          <div class="modal-content modal-half">
+            <h3>
+              Thanks for stopping by!<br />Please contact me with any questions,
+              I'm looking for new opportunities to get experience
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- main section -->
     <section class="title py-5">
@@ -206,9 +231,7 @@
             >
           </li>
           <li class="footer-link">
-            <a href="#" class="footer-link px-4" onclick="toggleModal()"
-              >Contact</a
-            >
+            <a href="#" class="footer-link px-4" id="footerContact">Contact</a>
           </li>
         </ul>
         <p class="text-center text-muted">&copy;2023 Daniel Zavala</p>
