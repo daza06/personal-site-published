@@ -68,17 +68,58 @@
     <div id="reserveModal" class="modal fade">
       <div class="modal-content modal-dialog modal-lg">
         <div class="wrapper d-flex align-items-stretch">
-          <div class="bg-yellow">
+          <div class="bg-green">
             <div class="text-white">
-              <span class="fa fa-envelope-square"></span>
+              <span class="envelope-icon fa fa-envelope-square"></span>
             </div>
-            <div class="pt-5 bold">
-              Please describe your product
+            <div class="pt-5 bold" style="padding-left: 25px">
+              I'm always looking for new<br />opportunities to learn and grow.
             </div>
-            <div class="pt-sm-5 pt-5 bold mt-sm-5">Thanks for stopping by!</div>
+            <div class="pt-5 bold mb-5" style="padding-left: 25px">
+              Please reach out with any questions<br />or inquires, i'd love to
+              meet you!
+            </div>
+            <div class="pt-sm-5 pt-5 bold mt-sm-5" style="padding-left: 70px">
+              Thanks for stopping by!
+            </div>
+            <div class="modal__languages mt-sm-4">
+              <figure class="modal__language">
+                <img
+                  class="modal__language--img click"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  alt="HTML"
+                />
+                <span class="language__name">HTML</span>
+              </figure>
+              <figure class="modal__language">
+                <img
+                  class="modal__language--img click"
+                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                  alt="CSS"
+                />
+                <span class="language__name">CSS</span>
+              </figure>
+              <figure class="modal__language">
+                <img
+                  class="modal__language--img click"
+                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                  alt="JavaScript"
+                />
+                <span class="language__name">JavaScript</span>
+              </figure>
+            </div>
           </div>
           <div class="contact-form">
-            <div class="h3">Contact Me</div>
+            <div
+              class="h3"
+              style="
+                border-bottom: 3px solid #a3bb98;
+                width: 40%;
+                border-bottom-style: groove;
+              "
+            >
+              Contact Me
+            </div>
             <form>
               <div class="form-group pt-lg-2 pt-3">
                 <label for="name">Your Name</label>
@@ -104,7 +145,7 @@
               <div
                 class="d-flex align-items-center flex-wrap justify-content-between pt-lg-5 mt-lg-4 mt-5"
               >
-                <div class="btn btn-default">Cancel</div>
+                <div class="btn btn-default" data-dismiss="modal">Cancel</div>
                 <div class="btn btn-primary">Submit</div>
               </div>
             </form>
