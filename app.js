@@ -18,7 +18,7 @@
 // }
 
 $(function () {
-  $("#reserveButton , #footerContact").click(function () {
+  $("#contactButton, #contactFooter").click(function () {
     $("#reserveModal").modal("show");
   });
 });
