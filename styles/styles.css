@@ -404,6 +404,7 @@ footer {
   box-shadow: 0px 0px 7px rgb(29, 29, 29);
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 /* 
