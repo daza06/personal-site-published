@@ -20,7 +20,7 @@
 // Modal
 $(function () {
   $("#contactButton, #contactFooter").click(function () {
-    $("#reserveModal").modal("show");
+    $("#my-modal").modal("show");
   });
 });
 
