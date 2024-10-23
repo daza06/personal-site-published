@@ -95,16 +95,27 @@
             >
               Contact Me
             </div>
-            <form action="" method="POST">
+            <form
+              id="myForm"
+              action="mailto:zavaladan06@gmail.com"
+              method="POST"
+            >
               <div class="form-group pt-lg-2 pt-3">
                 <label for="name">Your Name</label>
-                <input type="text" name="name" class="form-control" required />
+                <input
+                  type="text"
+                  name="name"
+                  value=""
+                  class="form-control"
+                  required
+                />
               </div>
               <div class="form-group pt-lg-2 pt-3">
-                <label for="name">Your Email</label>
+                <label for="email">Your Email</label>
                 <input
                   type="email"
                   name="email"
+                  value=""
                   class="form-control"
                   required
                 />
@@ -113,6 +124,7 @@
                 <label for="message">Message</label>
                 <textarea
                   name="message"
+                  value=""
                   class="form-control"
                   required
                 ></textarea>
@@ -120,7 +132,14 @@
               <div
                 class="d-flex align-items-center flex-wrap justify-content-between pt-lg-4"
               >
-                <div class="btn btn-default" data-dismiss="modal">Cancel</div>
+                <button
+                  class="btn btn-default"
+                  type="button"
+                  onclick="document.getElementById('myForm').reset()"
+                  data-dismiss="modal"
+                >
+                  Cancel
+                </button>
                 <button class="btn btn-primary" type="submit">Submit</button>
               </div>
             </form>
@@ -205,21 +224,20 @@
         <div class="row">
           <div class="about-title col py-5 mr-auto">
             <h2>My Story</h2>
-            <p style="text-align: left">
+            <p style="text-align: center">
               Hello, my name is Daniel Zavala and I’m a front-end web
               developer.<br />
               I have always loved technology and when I graduated high school I
               knew<br />
               that passion could be turned into a career.<br />
               I took an introductory coding class at Brigham Young
-              University-Idaho<br />
-              and I was hooked.<br />
+              University-Idaho and I was hooked.<br />
               Coding was interesting and something I was intrigued to know more
               about,<br />
               so I decided to do a coding bootcamp through NuCamp<br />
               which I completed in August of 2022.<br />
-              I’ve been working on my coding skills for a couple<br />
-              years now and trying to learn all I can.<br />
+              I’ve been working on my coding skills for a couple= years now and
+              trying to learn all I can.<br />
               I’m an excellent problem solver, and extremely patient.<br />
               You can count on me to figure things out and get the job done
               right!
@@ -294,7 +312,7 @@
             <a href="#" class="footer-link px-4" id="contactFooter">Contact</a>
           </li>
         </ul>
-        <p class="text-center text-muted">&copy;2023 Daniel Zavala</p>
+        <p class="text-center text-muted">&copy;2024 Daniel Zavala</p>
       </div>
     </footer>
 

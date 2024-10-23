@@ -18,6 +18,7 @@
 // }
 
 // Modal
+
 $(function () {
   $("#contactButton, #contactFooter").click(function () {
     $("#my-modal").modal("show");
